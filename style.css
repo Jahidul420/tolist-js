@@ -1,0 +1,69 @@
+*{
+    list-style-type:none;
+}
+
+#to-body{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 200px;
+}
+body{
+    background: rgb(0, 181, 132);
+    display: flex;
+
+    
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+#task-fild{
+    width: 70%;
+    border-radius: 5px;
+}
+#label-header{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.new-task-container{
+    background: white;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.box .completed-box,
+.box .inccompleate-box{
+    width: 50%;
+}
+.completed-box ul,
+.inccompleate-box ul{
+    padding: 0px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.completed-box ul li input,
+.inccompleate-box ul li input{
+   margin: 14px 13px 0px 0px;
+}
+.completed-box ul li label,
+.inccompleate-box ul li label{
+   color: gray;
+   font-size: 25px;
+   font-weight: 600;
+}
+
